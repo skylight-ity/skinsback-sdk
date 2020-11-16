@@ -33,7 +33,8 @@ export enum API_METHODS {
     GET_MARKET_PRICE_LIST='market_pricelist',
     SEARCH_ITEMS='market_search',
     BUY_ITEM_AND_SEND='market_buy',
-    GET_INFO_ABOUT_BOUGHT_ITEM='market_getinfo'
+    GET_INFO_ABOUT_BOUGHT_ITEM='market_getinfo',
+    GET_HISTORY_ORDERS='market_history'
 }
 
 export type GameTypes = 'csgo' | 'dota2'
